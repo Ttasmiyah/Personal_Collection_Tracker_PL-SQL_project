@@ -20,7 +20,7 @@ BEGIN
 		MY_PACK_COL.SHOW_BOOK_COL;
 	END IF;
 	
-	IF CHOICES > 2 OR CHOICES < 0 THEN
+	IF CHOICES > 2 OR CHOICES < 1 THEN
 		RAISE CHOICE_OUT_OF_BOUND;
 	END IF;
 	
@@ -30,4 +30,4 @@ BEGIN
 			
 END;
 /
-
+@"D:\4.1\DDS-LAB\Z_LABPROJECT\Personal Collection Tracker\site1\searchCollection.sql"
